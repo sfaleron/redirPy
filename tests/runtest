@@ -1,0 +1,3 @@
+#!/bin/sh
+python $@ >output.nro 2>output.nre
+python posttest.py
